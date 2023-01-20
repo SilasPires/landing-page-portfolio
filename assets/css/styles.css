@@ -288,11 +288,11 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
 @media (max-width: 540px) {
 
     .gallery-img img {
+        display: block;
         width: 100%;
         max-width: 36rem;
         max-height: 36rem;
-
-    }
+  }
 
    h2 {
         font-size: 4.7rem;
