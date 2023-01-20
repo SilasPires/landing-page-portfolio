@@ -21,6 +21,11 @@
     justify-content: center;
 }
 
+.img-adjust {
+        width: 36rem;
+        height: 36rem;
+    }
+
 .intro-img img {
     max-width: 100%;
     height: auto;
