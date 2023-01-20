@@ -22,6 +22,8 @@
 }
 
 .contact-img {
+    max-width 100%;
+    height: auto;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -223,11 +225,6 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
         grid-template-columns: 1fr;
     }
     
-    .intro-img {
-    max-width: 100%;
-    height: auto;
-    }
-
     .gallery-img {
         width: 100%;
         max-width: 100%;
@@ -289,7 +286,4 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
     .menu-spacing {
         display: none;
 }
-   .contact-img {
-    max-width: 100%;
-    height: auto;
 }
