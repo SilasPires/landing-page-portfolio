@@ -164,8 +164,6 @@
     font-size: 1.6rem;
 }
 
-}
-
 .footer p {
  margin: 0;
  padding-top: 0.2rem;
@@ -213,6 +211,10 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
+
+    h2, h5, p {
+        max-width: 100vh;
+            }
     
     .gallery-img {
         width: 100%;
@@ -275,4 +277,22 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
     .menu-spacing {
         display: none;
 }
+}
+
+@media (max-width: 800px) {
+     .contact-img {
+    display: none;
+    }
+}
+
+@media (max-width: 540px) {
+
+   h2 {
+        font-size: 5rem;
+    }
+
+    .footer-ceo {
+        font-size: 2.5rem;
+    }
+
 }
