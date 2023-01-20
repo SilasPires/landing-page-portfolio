@@ -22,8 +22,8 @@
 }
 
 .contact-img {
-    height: 36rem;
-    width: 36rem;
+    height: 360px;
+    width: 360px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
