@@ -292,19 +292,20 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
 
 @media (max-width: 540px) {
     
-    .img-adjust {
-        width: 100vh;
-    }
-    
      .gallery-img {
          width: 100vh;
     }
+    
+    .img-adjust {
+        width: 100%;
+    }
+    
 
     .gallery-img img {
         width: 100%;
         max-width: 36rem;
         max-height: 36rem;
-        overflow: visible;
+        overflow: ;
     }
 
    h2 {
