@@ -289,4 +289,7 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
     .menu-spacing {
         display: none;
 }
+   .contact-img {
+    max-width: 100%;
+    height: auto;
 }
