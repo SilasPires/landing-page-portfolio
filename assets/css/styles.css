@@ -288,12 +288,14 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
 @media (max-width: 540px) {
 
     .gallery-img img {
-    width: 100%;
-    max-width: 36rem;
-    max-height: 36rem;
+        width: 100%;
+        max-width: 36rem;
+        max-height: 36rem;
+
+    }
 
    h2 {
-        font-size: 5rem;
+        font-size: 4.7rem;
     }
 
     .footer-ceo {
