@@ -293,8 +293,8 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
 @media (max-width: 540px) {
     
      .gallery-img {
-         min-width: 100vh;
-         min-height: 100vh;
+         max-width: 100vh;
+         max-height: 100vh;
     }
        
     .gallery-img img {
