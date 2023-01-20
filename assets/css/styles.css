@@ -15,7 +15,7 @@
     grid-column: span 2;
 }
 
-.intro-text-content, .intro-img {
+.intro-text-content, .intro-img, contact.img {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
