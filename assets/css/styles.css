@@ -287,21 +287,11 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
 
 @media (max-width: 540px) {
 
-    .gallery-img {
+    .gallery-img img {
     width: 100%;
     max-width: 36rem;
     max-height: 36rem;
-    overflow: auto;
-}
 
-.gallery-img img {
-    transition: all 300ms ease-in-out;
-}
-
-.gallery-img img:hover {
-    transform: translate(3%, 3%) scale(1.2) rotate(5deg);
-}
-    
    h2 {
         font-size: 5rem;
     }
