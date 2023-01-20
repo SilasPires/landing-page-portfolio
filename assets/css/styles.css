@@ -287,6 +287,11 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
 
 @media (max-width: 540px) {
 
+    .img-adjust {
+    width: 36rem;
+    height: 36rem;
+    }
+    
    h2 {
         font-size: 5rem;
     }
