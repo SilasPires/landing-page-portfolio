@@ -22,12 +22,8 @@
 }
 
 .contact-img {
-    height: 36px;
-    width: 36px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    margin-left: 13rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .intro-img img {
@@ -221,10 +217,6 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
 @media (max-width: 800px) {
     .intro-content, .grid {
         grid-template-columns: 1fr;
-    }
-    
-    .contact-img {
-        width: 100%;
     }
     
     .gallery-img {
