@@ -294,7 +294,6 @@ transform: translate(3%, 3%) scale(1.1) rotate(5deg);
     
      .gallery-img {
          width: 100vh;
-         height: 100vh;
     }
     
     .img-adjust {
