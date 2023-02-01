@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-/* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
-
 html { 
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -36,6 +31,7 @@ h2 {
     margin-bottom: 5rem;
     text-transform: uppercase;
     line-height: 1.2;
+    color: var(--secondary-color);
 }
 
 .orange-title {
@@ -60,9 +56,11 @@ h6 {
 
 a   {
     text-decoration: none;
+    border: none;
 }
 
 p {
+    color: var(--primary-color);
     margin-bottom: 3rem;
 }
 
